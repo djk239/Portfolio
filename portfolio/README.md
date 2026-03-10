@@ -9,10 +9,10 @@ This portfolio highlights my interests in **full-stack development, automation s
 
 # Live Site
 
-COMING SOON
+https://vercel.com/djk239s-projects/portfolio-live/26ZMaWkiWvhfhS75i4XEafryLhRk
 
 ```
-COMING SOON
+https://vercel.com/djk239s-projects/portfolio-live/26ZMaWkiWvhfhS75i4XEafryLhRk
 ```
 
 ---
