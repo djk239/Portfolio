@@ -1,5 +1,11 @@
 # Dale King — Developer Portfolio
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css)
+![JavaScript](https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+
 A modern **React + Vite portfolio website** built to showcase my software projects, technical stack, coursework, and interests.
 The site focuses on **clean design, modular components, and data-driven content** so that projects and technologies can be easily expanded over time.
 
