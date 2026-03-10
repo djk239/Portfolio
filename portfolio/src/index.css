@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Make full height for html, body, and root */
+html, body, #root {
+  min-height: 100%;  
+  margin: 0; 
+  overflow-x: hidden;
+}
+
+/* Set the background color for the entire page */
+body {
+  background: radial-gradient(circle at 70% , #181717, #1b1a1a);
+}
+
+#root {
+  min-height: 100%;
+}
