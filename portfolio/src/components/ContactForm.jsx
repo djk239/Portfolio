@@ -15,11 +15,15 @@ export default function ContactForm({ isOpen, onClose }) {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
+  const sID = import.meta.env.VITE_serviceId;
+  const tID = import.meta.env.VITE_templateId;
+  const pKey = import.meta.env.VITE_publicKey;
+
   const handleSubmit = async (values, { resetForm }) => {
     try {
-      const serviceId = "service_yvf040p";
-      const templateId = "template_12q0ose";
-      const publicKey = "6WUAoG7f3JkwnUgBJ";
+      const serviceId = sID;
+      const templateId = tID;
+      const publicKey = pKey;
 
       await emailjs.send(serviceId, templateId, values, publicKey);
       setSubmitted(true);
