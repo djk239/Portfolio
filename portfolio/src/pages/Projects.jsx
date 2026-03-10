@@ -28,7 +28,6 @@ function Projects() {
   return (
     <div className="min-h-screen bg-neutral-900 text-white px-6 py-16">
       
-      {/* Page Header */}
       <motion.div
         initial={{ opacity: 0, y: 25 }}
         animate={{ opacity: 1, y: 0 }}

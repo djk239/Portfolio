@@ -44,13 +44,12 @@ export default function ContactForm({ isOpen, onClose }) {
         isOpen ? "pointer-events-auto" : "pointer-events-none"
       }`}
     >
-      {/* Overlay */}
       <div
         className="absolute inset-0 bg-black/50 backdrop-blur-sm"
         onClick={onClose}
       />
 
-      {/* Form Card */}
+      {/* Form */}
       <motion.div
         className="relative z-10 w-full max-w-md p-8 bg-stone-900/70 backdrop-blur-md rounded-3xl shadow-2xl border border-neutral-700 text-white"
         initial={{ scale: 0.95 }}

@@ -21,12 +21,12 @@ export default function Navbar() {
       className="fixed top-0 left-0 w-full z-50 bg-neutral-900/90 backdrop-blur-md border-b border-neutral-700"
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo / title*/}
         <NavLink to="/" className="text-2xl font-bold tracking-tight text-white">
           Dale.dev
         </NavLink>
 
-        {/* Desktop Links */}
+        {/* Links (big screen) */}
         <div className="hidden lg:flex gap-10 relative">
           {navLinks.map((link) => (
             <NavItem key={link.path} link={link} />
@@ -44,7 +44,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Links (mobile) */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

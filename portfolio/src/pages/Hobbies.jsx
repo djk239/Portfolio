@@ -83,6 +83,9 @@ function Hobbies() {
   );
 }
 
+// Reusable section to display hobbie info along with image
+// Reverse prop is used to reverse the order of the text and image
+
 function Section({ title, text, image, reverse }) {
   return (
     <motion.div

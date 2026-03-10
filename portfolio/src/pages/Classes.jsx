@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, Atom, Terminal, Variable, BookOpenText } from "lucide-react";
-import { Link } from "react-router-dom"; // Assuming you use react-router, adjust if using Next.js
-
+import { Link } from "react-router-dom"; 
 export default function Classes() {
-  // Simple data structure so you can easily edit your coursework
+
   const courseCategories =[
     {
       title: "Computer Science",
@@ -70,7 +69,7 @@ export default function Classes() {
 
   ];
 
-  // Animation variants for staggered list rendering
+  // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
     show: {

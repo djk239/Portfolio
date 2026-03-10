@@ -21,7 +21,6 @@ export default function Classcard({ title, text, Icon }) {
         </h3>
       </div>
 
-      {/* Text */}
       <p className="mt-4 text-neutral-300 leading-relaxed text-sm">
         {text}
       </p>

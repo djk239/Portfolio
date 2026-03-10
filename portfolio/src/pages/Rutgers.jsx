@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Imported Link for routing
+import { Link } from "react-router-dom"; 
 import { motion } from "framer-motion";
 import rutgers from "../assets/rutgers.png";
 import degree from "../assets/degree.jpeg";
@@ -64,7 +64,6 @@ function Rutgers() {
             </motion.h1>
 
               {courses.map((c) => (
-                // Moved key={c.id} to the outermost element in the map to prevent React warnings
                 <motion.div key={c.id} variants={fadeUp}>
                   <Classcard
                     title={c.title}

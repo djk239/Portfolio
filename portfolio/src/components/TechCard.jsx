@@ -1,10 +1,16 @@
 import { Star } from "lucide-react";
 
 export default function TechCard({ name, level }) {
-  // level = 1–5
   return (
-    <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-6 hover:border-neutral-600 transition">
-      <h3 className="text-lg font-semibold text-neutral-100">{name}</h3>
+    <motion.div
+      whileHover={{ y: -4 }}
+      className="bg-neutral-900 border border-neutral-800 rounded-xl p-6 
+                 hover:border-red-500/40 hover:shadow-lg hover:shadow-red-500/5
+                 transition duration-300"
+    >
+      <h3 className="text-lg font-semibold text-neutral-100">
+        {name}
+      </h3>
 
       <div className="flex gap-1 mt-3">
         {[...Array(5)].map((_, i) => (
@@ -19,6 +25,6 @@ export default function TechCard({ name, level }) {
           />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
