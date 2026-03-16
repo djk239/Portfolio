@@ -44,12 +44,13 @@ export default function Home() {
               transition={{ delay: 0.3 }}
               className="mt-8 flex gap-4"
             >
-              <a
-                href="/projects"
+
+              <Link
+                to="/projects"
                 className="px-6 py-3 rounded-xl bg-red-700/20 backdrop-blur-md text-white font-bold hover:bg-red-600/30 transition"
               >
                 View Projects
-              </a>
+              </Link>
 
               <button
                 onClick={() => setIsContactOpen(true)}
