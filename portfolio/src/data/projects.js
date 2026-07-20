@@ -29,6 +29,7 @@ export const projects = [
     text: "A full-stack AI chat application built for developers, integrating local LLMs via Ollama (Qwen Coder 2.5) with optional cloud models through OpenRouter. Features include JWT-based authentication, persistent conversation history, retryable responses, and built-in productivity tools for generating structured code with comments, error handling, and test cases — all within a modern dark-themed UI.",
     tech: ["Node.js", "JavaScript", "JWT", "Ollama", "OpenRouter", "Authentication", "Full-Stack Development", "Tailwind"],
     github: "https://github.com/djk239/dkllmai",
+    demo: "https://dkllmai.onrender.com/",
   },
 ];
 
